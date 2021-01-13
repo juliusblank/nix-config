@@ -138,8 +138,8 @@ in
   xdg.enable = true;
 
   home = {
-    username      = "gvolpe";
-    homeDirectory = "/home/gvolpe";
+    username      = "julius";
+    homeDirectory = "/home/julius";
     stateVersion  = "20.09";
 
     packages = defaultPkgs ++ gitPkgs ++ gnomePkgs ++ haskellPkgs ++ polybarPkgs ++ xmonadPkgs ++ unstablePkgs;
