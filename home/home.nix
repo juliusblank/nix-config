@@ -126,6 +126,7 @@ in
     ./programs/neovim/default.nix
     ./programs/rofi/default.nix
     ./programs/xmonad/default.nix
+    ./programs/xmobar/default.nix
     ./services/dunst/default.nix
     ./services/gpg-agent/default.nix
     ./services/networkmanager/default.nix

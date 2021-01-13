@@ -17,9 +17,10 @@
         };
       };
       font = {
+        use_thin_strokes = true;
         normal = {
-          family = "JetBrainsMono Nerd Font";
-          style = "Medium";
+          family = "FiraCode Nerd Font";
+#          style = "Medium";
         };
         size = fontSize;
       };

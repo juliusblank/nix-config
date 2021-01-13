@@ -9,6 +9,8 @@ let
     fonts = [
       "JetBrainsMono"
       "Iosevka"
+      "FiraCode"
+      "DroidSansMono"
     ];
   };
 
@@ -21,7 +23,7 @@ in
       ./hardware-configuration.nix
       # Machine-specific configuration
       ./machine/current.nix
-      # Window manager 
+      # Window manager
       ./wm/xmonad.nix
     ];
 
