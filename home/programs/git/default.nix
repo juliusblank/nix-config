@@ -41,9 +41,9 @@ in
     ];
     signing = {
       key = "121D4302A64B2261";
-      signByDefault = true;
+      signByDefault = false;
     };
-    userEmail = "volpegabriel@gmail.com";
-    userName = "Gabriel Volpe";
+    userEmail = "dev@juliusblank.de";
+    userName = "Julius Blank";
   };
 }

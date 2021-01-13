@@ -106,7 +106,7 @@ in
   programs.fish.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.gvolpe = {
+  users.users.julius = {
     isNormalUser = true;
     extraGroups  = [ "docker" "networkmanager" "wheel" ]; # wheel for ‘sudo’.
     shell        = pkgs.fish;
@@ -134,7 +134,7 @@ in
     '';
 
     # Required by Cachix to be used as non-root user
-    trustedUsers = [ "root" "gvolpe" ];
+    trustedUsers = [ "root" "julius" ];
   };
 
   # This value determines the NixOS release from which the default

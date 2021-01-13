@@ -36,7 +36,7 @@ in
     "org/gnome/desktop/background" = {
       color-shading-type = "solid";
       picture-options = "zoom";
-      picture-uri = "file:///home/gvolpe/Pictures/nixos.png";
+      picture-uri = "file:///home/julius/Pictures/nixos.png";
       primary-color = "#000000000000";
       secondary-color = "#000000000000";
     };
@@ -86,7 +86,7 @@ in
     };
 
     "org/gnome/desktop/screensaver" = {
-      picture-uri = "file:///home/gvolpe/Pictures/nixos.png";
+      picture-uri = "file:///home/julius/Pictures/nixos.png";
     };
 
     "org/gnome/desktop/sound" = {
@@ -112,7 +112,7 @@ in
       delay = 0;
       include-border = true;
       include-pointer = false;
-      last-save-directory = "file:///home/gvolpe/Pictures";
+      last-save-directory = "file:///home/julius/Pictures";
     };
 
     "org/gnome/mutter" = {
